@@ -64,5 +64,25 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Reach is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://www.withreach.com/
+Reach is the premier partner for ambitious, forward‑thinking online brands that want to connect with consumers around the world. Using its unique, local service provider model, Reach helps retailers process global payment transactions wherever a merchant’s customer is based. The company brings consistency to cross‑border currency conversions with its Guaranteed FX solution, has relationships with banks worldwide to enable local credit‑card processing, offers consumers alternative payment methods where they are accustomed to using them, and provides best‑in‑class fraud detection and prevention services.
+
+**Areas:** Company · Payments · Tax · Compliance · E-commerce · Merchant of Record
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.withreach.com/)
+- [Documentation](https://docs.withreach.com/)
+- [Getting started](https://docs.withreach.com/docs/shopify-getting-started)
+- [API reference](https://docs.withreach.com/reference)
+- [Support](https://www.withreach.com/request-a-call)
+- [Privacy policy](https://www.withreach.com/privacy-center)
+- [GitHub](https://github.com/withreach)
+- [Status](https://status.withreach.com/)
+
+**APIs profiled:** 6
+
+## API Evangelist rating
+
+Not yet rated. See [apis.io/providers/withreach/](https://apis.io/providers/withreach/).
