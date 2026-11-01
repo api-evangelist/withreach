@@ -68,6 +68,69 @@ Reach is the premier partner for ambitious, forward‑thinking online brands tha
 
 **Areas:** Company · Payments · Tax · Compliance · E-commerce · Merchant of Record
 
+## Reach on APIs.io
+
+Everything profiled for Reach is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/withreach/](https://apis.io/providers/withreach/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [Transaction Details API](https://apis.io/apis/withreach/transaction-details-api/) — The Transaction Details API lets partners submit comprehensive transaction data, including line-item tax breakdowns, to Reach.
+- [Reach GET API](https://apis.io/apis/withreach/withreach-get-api/) — The GET API from Reach — 7 operation(s) for get.
+- [Reach Order API](https://apis.io/apis/withreach/withreach-order-api/) — Manage a Order within Reach.
+- [Reach POST API](https://apis.io/apis/withreach/withreach-post-api/) — The POST API from Reach — 8 operation(s) for post.
+- [Reach Quote API](https://apis.io/apis/withreach/withreach-quote-api/) — The Quote API from Reach — 1 operation(s) for quote.
+- [Reach Session API](https://apis.io/apis/withreach/withreach-session-api/) — Manage a Session within Reach.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Withreach Agentic Access](https://apis.io/agentic-access/withreach/withreach-agentic-access/)
+
+#### JSON Schema (7)
+
+The data models the API reads and writes.
+
+- [CaptureResultResource](https://apis.io/schemas/withreach/withreach-capture-result-resource/)
+- [Order](https://apis.io/schemas/withreach/withreach-order/)
+- [Quote](https://apis.io/schemas/withreach/withreach-quote/)
+- [Refund](https://apis.io/schemas/withreach/withreach-refund/)
+- [Session](https://apis.io/schemas/withreach/withreach-session/)
+- [Tax linking](https://apis.io/schemas/withreach/withreach-transaction-details-mode-a/)
+- [Tax only](https://apis.io/schemas/withreach/withreach-transaction-details-mode-b/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Withreach Context](https://apis.io/jsonld/withreach/withreach-context/)
+
+#### Overlays (4)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Withreach Reach Checkout Api Overlay](https://apis.io/overlays/withreach/withreach-reach-checkout-api-overlay/)
+- [Withreach Reach S Drop In Api Overlay](https://apis.io/overlays/withreach/withreach-reach-s-drop-in-api-overlay/)
+- [Withreach Tax Quote Api Overlay](https://apis.io/overlays/withreach/withreach-tax-quote-api-overlay/)
+- [Withreach Transaction Details Api Overlay](https://apis.io/overlays/withreach/withreach-transaction-details-api-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Reach API Rules](https://apis.io/rules/withreach/withreach-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Withreach Authentication](https://apis.io/security/withreach/withreach-authentication/)
+- [Withreach Domain Security](https://apis.io/security/withreach/withreach-domain-security/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
@@ -81,8 +144,57 @@ Links to the company's own pages. This repository publishes no copy of their spe
 - [GitHub](https://github.com/withreach)
 - [Status](https://status.withreach.com/)
 
-**APIs profiled:** 6
-
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/withreach/](https://apis.io/providers/withreach/).
+**Kin Score 53.4** — developing · rubric 0.25.0 · scored 2026-10-28
+
+| Facet | Score |
+|---|---|
+| Discoverability | 70.0 |
+| Contract quality | 60.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 47.4 |
+| Developer ergonomics | 68.3 |
+| Access clarity | 10.5 |
+
+**Agent readiness 54.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 18.8** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/withreach/](https://apis.io/providers/withreach/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Reach: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/withreach/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
